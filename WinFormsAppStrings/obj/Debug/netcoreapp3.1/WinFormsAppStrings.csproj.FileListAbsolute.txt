@@ -1,0 +1,15 @@
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\bin\Debug\netcoreapp3.1\WinFormsAppStrings.exe
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\bin\Debug\netcoreapp3.1\WinFormsAppStrings.deps.json
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\bin\Debug\netcoreapp3.1\WinFormsAppStrings.runtimeconfig.json
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\bin\Debug\netcoreapp3.1\WinFormsAppStrings.runtimeconfig.dev.json
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\bin\Debug\netcoreapp3.1\WinFormsAppStrings.dll
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\bin\Debug\netcoreapp3.1\WinFormsAppStrings.pdb
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.csprojAssemblyReference.cache
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.AssemblyInfoInputs.cache
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.AssemblyInfo.cs
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.csproj.CoreCompileInputs.cache
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.dll
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.pdb
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.genruntimeconfig.cache
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.Form1.resources
+C:\Users\rich1\RiderProjects\WinFormsAppStrings\WinFormsAppStrings\obj\Debug\netcoreapp3.1\WinFormsAppStrings.csproj.GenerateResource.cache
