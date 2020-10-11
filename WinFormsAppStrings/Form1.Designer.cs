@@ -37,6 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.outmaxword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textin
@@ -71,7 +72,7 @@
             this.DeleteWord.Name = "DeleteWord";
             this.DeleteWord.Size = new System.Drawing.Size(85, 91);
             this.DeleteWord.TabIndex = 3;
-            this.DeleteWord.Text = "Удалить все предыдущие вхождения последней буквы";
+            this.DeleteWord.Text = "Удалить все предыдущие вхождения последней буквы\r\n";
             this.DeleteWord.UseVisualStyleBackColor = true;
             this.DeleteWord.Click += new System.EventHandler(this.DeleteWord_Click);
             // 
@@ -108,11 +109,22 @@
             this.label3.Text = "Самое длинное слово и сколько раз оно встречалось";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // reset
+            // 
+            this.reset.Location = new System.Drawing.Point(223, 355);
+            this.reset.Name = "reset";
+            this.reset.Size = new System.Drawing.Size(131, 36);
+            this.reset.TabIndex = 8;
+            this.reset.Text = "Очистить\r\n";
+            this.reset.UseVisualStyleBackColor = true;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(572, 450);
+            this.Controls.Add(this.reset);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.outmaxword);
             this.Controls.Add(this.label2);
@@ -126,6 +138,8 @@
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.Button reset;
 
         private System.Windows.Forms.TextBox delword;
         private System.Windows.Forms.TextBox outmaxword;

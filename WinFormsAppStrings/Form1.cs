@@ -10,6 +10,12 @@ using System.Windows.Forms;
 
 namespace WinFormsAppStrings
 {
+    /*
+    Вариант 15
+    1. Написать программу, которая вводит текст, состоящий из нескольких предложений, находит самое длинное слово 
+    и определяет, сколько раз оно встретилось в тексте.
+    2. Дан текст. Вывести все слова, предварительно удалив из них все предыдущие вхождения последней буквы.
+     */
     public partial class Form1 : Form
     {
         public Form1()
@@ -48,16 +54,34 @@ namespace WinFormsAppStrings
             }
         }
 
-        private void DeleteWord_Click(object sender, EventArgs e)
+        private void DeleteWord_Click(object sender, EventArgs e) // кнопка для вывода всех слов,
+                                                                  // предварительно удалив из них все предыдущие вхождения последней буквы
         {
-            string[] masText =  textin.Text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            char[] masLastWord = new char[textin.Text.Length*2];
+            string[] masText =  textin.Text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries); //разбиваем строку на массив слов
+            char masLastWord = masText[^1].ToCharArray()[masText[^1].ToCharArray().Length - 1]; // 
             for (int i = 0; i < masText.Length; i++)
             {
-                masLastWord[i] = masText[i].ToCharArray()[masText[i].Length - 1]; // алгоритм для уравнения строчных и знаглавных букв
+                masText[i] = masText[i].Trim(masLastWord);
+                delword.Text += masText[i] + " ";
+            }
+        }
+
+        private void reset_Click(object sender, EventArgs e)
+        {
+            textin.Clear();
+            outmaxword.Clear();
+            delword.Clear();
+        }
+    }
+    /*
+     string[] masText =  textin.Text.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries); //разбиваем строку на массив слов
+            char[] masLastWord = new char[textin.Text.Length*2]; // создаем массив для хранения последних букв в слове
+            for (int i = 0; i < masText.Length; i++) 
+            {
+                masLastWord[i] = masText[i].ToCharArray()[masText[i].Length - 1]; // алгоритм для уравнения строчных и заглавных букв
                 masLastWord[i] = masLastWord[i].ToString().ToUpper().ToCharArray()[0];
                 masLastWord[masLastWord.Length - i - 1] = masLastWord[i].ToString().ToLower().ToCharArray()[0];
-                if (i!=0)
+                if (i!=0 && i != masText.Length - 1) 
                 { 
                     delword.Text += " " + String.Concat(masText[i].Split(masLastWord, StringSplitOptions.RemoveEmptyEntries));
                 }
@@ -66,6 +90,5 @@ namespace WinFormsAppStrings
                     delword.Text += " " + masText[i];
                 }
             }
-        }
-    }
+     */
 }
